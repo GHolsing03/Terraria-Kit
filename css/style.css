@@ -7,7 +7,47 @@ body, html {
     background-image: url("../images/background.png");
     height: 100vh;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: cover;
     position: relative;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #3b3b5c;
+    color: white;
+    border: 2px solid #5b5b7d;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tab:hover {
+    background-color: #4b4b7c;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.blue-box {
+    background: rgba(50, 100, 200, 0.7);
+    border: 2px solid #2d4a7c;
+    /* box-shadow: inset 0 0 5px #90b4f0; */
+    padding: 40px;
+    border-radius: 8px;
 }
