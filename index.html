@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta name="description" content="Useful tools for Terraria" />
+<html lang="en"><head>
+  <meta name="description" content="Useful tools for Terraria">
   <meta charset="utf-8">
   <title>Terrakit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +9,32 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
-<body>
+<body height:="" background="../images/background.png" style="height: 100vh;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    position: relative;">
   <div class="container">
   </div>
-  <div class="background">
-  </div>
+  
+    <div class="tabs">
+        <button class="tab" data-content="tab1">Tab 1</button>
+        <button class="tab" data-content="tab2">Tab 2</button>
+        <button class="tab" data-content="tab3">Tab 3</button>
+    </div>
+
+    <div id="tab1" class="content active">
+        <div class="blue-box">This is Tab 1's content.</div>
+    </div>
+    <div id="tab2" class="content">
+        <div class="blue-box">This is Tab 2's content.</div>
+    </div>
+    <div id="tab3" class="content">
+        <div class="blue-box">This is Tab 3's content.</div>
+    </div>
 <script src="js/scripts.js">
 </script>
 
-</body>
-</html>
+
+
+</body></html>
