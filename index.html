@@ -15,17 +15,17 @@
     background-size: cover;
     position: relative;
     color: white;
-    margin: 30px;">
+    margin: 30px;" cz-shortcut-listen="true">
   <div class="container">
   </div>
     <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'fishingTabContent')">Fishing</button>
+    <button class="tablinks active" onclick="openTab(event, 'fishingTabContent')">Fishing</button>
     <button class="tablinks" onclick="openTab(event, 'buildingTabContent')">Building</button>
     <button class="tablinks" onclick="openTab(event, 'craftingTabContent')">Crafting</button>
 </div>
-<div id="fishingTabContent" class="tabcontent" style="display: block;">Fishing content</div>
-<div id="buildingTabContent" class="tabcontent">Building content</div>
-<div id="craftingTabContent" class="tabcontent">Crafting content</div>
+<div id="fishingTabContent" class="tabcontent" style="display: block;">Fishing content <button class="test">FISH</button></div>
+<div id="buildingTabContent" class="tabcontent" style="display: none;">Building content</div>
+<div id="craftingTabContent" class="tabcontent" style="display: none;">Crafting content</div>
 
 <script src="js/scripts.js"></script>
 
