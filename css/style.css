@@ -25,11 +25,13 @@ button {
 }
 
 .tab button {
-    background-color: rgba(50, 100, 200, 0.85);
+    background-color: rgb(29 75 167 / 85%);
     float: left;
     border: 3px solid #2d4a7c;
     padding: 10px 10px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: -3px;
+    margin-left:15;
 }
 
 .tab button:hover {
