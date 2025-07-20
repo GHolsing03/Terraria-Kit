@@ -17,23 +17,18 @@
   <div class="container">
   </div>
   
-    <div class="tabs">
-        <button class="tab" data-content="tab1">Tab 1</button>
-        <button class="tab" data-content="tab2">Tab 2</button>
-        <button class="tab" data-content="tab3">Tab 3</button>
-    </div>
+    <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'fishingTabContent')">Fishing</button>
+    <button class="tablinks" onclick="openTab(event, 'buildingTabContent')">Building</button>
+    <button class="tablinks" onclick="openTab(event, 'craftingTabContent')">Crafting</button>
+</div>
 
-    <div id="tab1" class="content active">
-        <div class="blue-box">This is Tab 1's content.</div>
-    </div>
-    <div id="tab2" class="content">
-        <div class="blue-box">This is Tab 2's content.</div>
-    </div>
-    <div id="tab3" class="content">
-        <div class="blue-box">This is Tab 3's content.</div>
-    </div>
-<script src="js/scripts.js">
-</script>
+<div id="fishingTabContent" class="tabcontent">Fishing content</div>
+<div id="buildingTabContent" class="tabcontent">Building content</div>
+<div id="craftingTabContent" class="tabcontent">Crafting content</div>
+
+<script src="js/scripts.js"></script>
+
 
 
 
