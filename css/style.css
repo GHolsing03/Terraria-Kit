@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "TerrariaFont";
-    src: url("../fonts/terraria.woff") format("woff");
+    font-family: "ANDYB";
+    src: url("../fonts/ANDYB.TTF") format("TTF");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    font-family: "TerrariaFont", sans-serif;
+    font-family: "ANDYB", sans-serif;
 }
 
 html, body {
