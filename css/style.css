@@ -29,12 +29,14 @@ button {
 .tab button {
     background-color: rgb(29 75 167 / 85%);
     float: left;
-    border: 3px solid #2d4a7c;
-    padding: 5px 10px;
+    border: 22px solid #2d4a7c;
+    padding: -1px -5px 5px 0px;
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: -3px;
-    margin-left:19;
-    
+    margin-bottom:-3px;
+    margin-left: 19;
+    border-image: url(../images/TBorder2Bottomless.png) 19 round;
+    border-radius: 25px;
+    font-size: 23;
 }
 
 .test {
