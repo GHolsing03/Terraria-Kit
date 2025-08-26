@@ -149,3 +149,18 @@ button {
     text-align: center;
     font-size: 25;
 }
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle-btn.active {
+  background: #0f0;
+  color: black;
+}
