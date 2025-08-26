@@ -16,3 +16,11 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+const toggleBtn = document.getElementById("toggleBtn");
+
+document.getElementById("toggleBtn").addEventListener("click", function() {
+  this.classList.toggle("active");
+    console.log("Success");
+  this.textContent = this.classList.contains("active") ? "ON" : "OFF";
+});
